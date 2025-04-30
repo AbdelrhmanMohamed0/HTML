@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF-8">
+        <meta name="author" content="Abdelrhman">
+        <title>login</title>
+    </header>
+    <body>
+        <form method="get">
+            <div>
+                <label for="Username">Username</label>
+                <input type="text" name="user name" id="Username"
+                    placeholder="Enter Name" autofocus minlength="5"
+                    maxlength="20" required>
+                <hr>
+                <input type="hidden" name="Token"
+                    value="b92f1fc2fce391ad7af633723afd3055">
+                <label for="Email">Email</label>
+                <input type="email" name="mail" value="a@gmail.com" id="Email"
+                    placeholder="Enter Email" readonly>
+                <hr>
+            </div>
+            <hr>
+            <div>
+                <label>job</label><br>
+                <div>
+                    <input type="radio" name="job" id="b1"
+                        value="Front-End Develope" checked>
+                    <label for="b1">Front-End Develope</label>
+                </div>
+                <div>
+                    <input type="radio" name="job" id="b2"
+                        value="Back-End Developer">
+                    <label for="b2">Back-End Developer</label>
+                </div>
+                <div>
+                    <input type="radio" name="job" id="b3"
+                        value=" Business Analyst">
+                    <label for="b3"> Business Analyst</label>
+                </div>
+                <div>
+                    <input type="radio" name="job" id="b4"
+                        value="Project Manager">
+                    <label for="b4">Project Manager</label>
+                </div>
+                <div>
+                    <input type="radio" name="job" id="b5" value="Scrum Master">
+                    <label for="b5">Scrum Master</label>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <label>Skills</label><br>
+                <div>
+                    <input type="checkbox" name="Programming" id="a1"
+                        value="Problem Solving" checked>
+                    <label for="a1">Problem Solving</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Programming" id="a2"
+                        value="Logical Thinking">
+                    <label for="a2">Logical Thinking</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Programming" id="a3"
+                        value="Advanced Search">
+                    <label for="a3">Advanced Search</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Programming" id="a4"
+                        value="Analysis">
+                    <label for="a4">Analysis</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Programming" id="a5"
+                        value="Planning">
+                    <label for="a5">Planning</label>
+                </div>
+            </div>
+            <hr>
+            <label for="pl">Programming Language:</label>
+            <select name="Programming Language" id="pl" >
+                <optgroup label="PHP">
+                    <option value="v5.0" selected>v5.0</option>
+                    <option value="v7.0">v7.0</option>
+                    <option value="v8.0">v8.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option value="v2.0">v2.0</option>
+                    <option value="v3.0">v3.0</option>
+                    <option value="v3.9">v3.9</option>
+                </optgroup>
+            </select>
+            <hr>
+            <textarea name="brief" placeholder="enter text" cols="40"
+                rows="30">Write Here Why You Want To Learn Programming</textarea>
+            <hr>
+            <input type="reset" name="reset" value="Empty">
+            <hr>
+            <input type="submit" name="submit" value="send">
+        </form>
+    </body>
+</html>

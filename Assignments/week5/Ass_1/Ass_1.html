@@ -1,0 +1,134 @@
+<!-- 
+1. Header
+Represents the introductory content or a group of navigational links. 
+Typically contains headings, logos, or search forms. 
+-->
+<header>
+    <h1>Website Title</h1>
+</header>
+<!-- 
+
+2. Nav
+Used to define a set of navigation links. 
+Usually contains a menu of links to other sections of the site.
+-->
+<nav>
+    <a href="/home">Home</a>
+    <a href="/about">About</a>
+</nav>
+<!-- 
+
+3. Main
+Represents the main content of a document, excluding headers,
+footers, navigation links, and sidebars.
+-->
+<main>
+    <h1>Main Content Area</h1>
+    <p>This is the main part of the webpage.</p>
+</main>
+
+<!-- 
+4. Aside
+Represents a section of a page that is tangentially related to the content, often a sidebar or a pull quote. 
+-->
+<aside>
+    <p>Additional info or related links.</p>
+</aside>
+
+<!-- 
+5. Picture
+Contains images with different formats or sizes, often used for responsive designs.
+You can specify different images for different screen sizes or resolutions. 
+-->
+<!-- 
+media="(min-width: 800px)": This property sets the condition that must be met to display the specified image.
+Here, min-width: 800px is used to indicate that the image (large-image.jpg) will only show if the screen width is
+greater than or equal to 800 pixels. If the screen width is less than that,
+a different image (or a default image within <img>) will be used.
+-->
+<picture>
+    <source media="(min-width: 800px)" srcset="large-image.jpg">
+    <img src="small-image.jpg" alt="Description">
+</picture>
+
+<!-- 
+6. Figure
+Used to encapsulate media content like images, illustrations, or diagrams, along with a caption. 
+-->
+<figure>
+    <img src="image.jpg" alt="Description">
+    <figcaption>Image Caption</figcaption>
+</figure>
+
+<!-- 
+7. Footer
+Represents the footer section of a document or section, 
+typically containing copyright info, links, or contact info. 
+-->
+<footer>
+    <p>&copy; 2024 Company Name</p>
+</footer>
+
+<!-- 
+8. FigCaption
+Provides a caption for a <figure> element. This helps describe the content of the figure. 
+-->
+<figcaption>
+    A caption describing the image above.
+</figcaption>
+
+<!-- 
+9. Section
+Defines a thematic grouping of content, typically with a heading. It's a general-purpose container for content. 
+-->
+<section>
+    <h2>About Us</h2>
+    <p>This is an about section.</p>
+</section>
+
+<!-- 
+10. Command
+Represents a command that the user can invoke, such as a button or an action. However,
+it's rarely used and was deprecated in HTML5 in favor of <button>. 
+-->
+<command label="Save" icon="save-icon.png" onclick="saveDocument()">
+
+<!-- 
+11. Ruby
+Used for marking up ruby annotations, which are small annotations that are typically used in East Asian typography
+to show the pronunciation of characters. 
+-->
+<ruby>
+    漢 <rp>(</rp><rt>かん</rt><rp>)</rp>
+</ruby>
+
+<!-- 
+12. Data
+Used to provide machine-readable data that can be easily processed by scripts. 
+It's commonly used in conjunction with JavaScript. 
+-->
+<p>Product price: <data value="49.99">$49.99</data></p>
+
+<!-- 
+13. Article
+Represents a self-contained piece of content that can be independently distributed or reused,
+such as blog posts or news articles. 
+-->
+<article>
+    <h1>Blog Title</h1>
+    <p>This is an article content.</p>
+</article>
+
+<!-- 
+14. Install
+This term is not an HTML element, but in the context of web development, 
+it can refer to the installation of packages, libraries, or software (e.g., via npm, pip, or package managers). 
+-->
+
+<!-- 
+15. Text
+Refers to actual content or written characters. 
+In HTML, there is no <text> tag. However, content is written between HTML elements as text nodes. 
+-->
+<p>This is text inside a paragraph.</p>
+<!-- These terms mostly correspond to semantic elements in HTML, which enhance web page structure and meaning. -->

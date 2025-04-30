@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF-8">
+        <meta name="description" content="Book  Store">
+        <meta name="author" content="Abdelrhman">
+        <title>Book Store</title>
+    </header>
+    <body>
+        <form method="get">
+            <div>
+                <input type="text" name="user name" value="Dody" disabled>
+                <hr>
+                <input type="text" name="pass" placeholder="Enter password"
+                    required minlength="5" maxlength="20" autofocus>
+                <hr>
+                <input type="email" name="mail" value="a@gmail.com" readonly>
+                <hr>
+            </div>
+            <div>
+                <input type="radio" name="os" id="win" value="windows" checked>
+                <label for="win">windows</label>
+            </div>
+            <div>
+                <input type="radio" name="os" id="lin" value="linux">
+                <label for="lin">linux</label>
+            </div>
+            <div>
+                <input type="radio" name="os" id="mac" value="mac">
+                <label for="mac">mac</label>
+            </div>
+            <hr>
+            <div>
+                <input type="checkbox" name="oos" id="win1" value="windows">
+                <label for="win1">windows</label>
+            </div>
+            <div>
+                <input type="checkbox" name="oos" id="lin1" value="linux">
+                <label for="lin1">linux</label>
+            </div>
+            <div>
+                <input type="checkbox" name="oos" id="mac1" value="mac">
+                <label for="mac1">mac</label>
+            </div>
+            <hr>
+            <label for="book">Choose Book:</label>
+            <select name="book" id="book" multiple>
+                <optgroup label="Romantic Book">
+                    <option value="1" selected>book1</option>
+                    <option value="2">book2</option>
+                    <option value="3">book3</option>
+                </optgroup>
+                <optgroup label="Action Book">
+                    <option value="4">book4</option>
+                    <option value="5">book5</option>
+                    <option value="6">book6</option>
+                </optgroup>
+            </select>
+            <hr>
+            <textarea name="subject" placeholder="enter text" cols="40"
+                rows="30"></textarea>
+            <hr>
+            <input type="submit" name="submit" value="save">
+        </form>
+    </body>
+</html>

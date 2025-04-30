@@ -1,0 +1,11 @@
+1. Does what is written inside the Head appear on the page or not?
+   No, what is written inside the `<head>` does not appear directly on the page, except for the title, which appears in the title bar or tab.
+
+2. Does the Title element need a closing tag or not?  
+   Yes, the `<title>` element requires a closing tag. It should be closed like this: `</title>`.
+
+3. Does the Meta element need a closing tag or not?  
+   No, the `<meta>` element does not need a closing tag, as it is self-closing.
+
+4. Does the content placed inside the Description in the Meta element appear on the page or not?
+   No, the content placed in the description within the `<meta>` element does not appear on the page; it is used for descriptions in search engines.

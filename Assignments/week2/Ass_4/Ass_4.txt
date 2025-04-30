@@ -1,0 +1,21 @@
+<p>Hello World</p>
+
+<p>
+Hello World
+</p>
+
+<p>
+Hello
+World
+</p>
+
+<p>
+Hello
+
+
+World
+</p>
+
+if all appear with the same display format ?
+
+yes

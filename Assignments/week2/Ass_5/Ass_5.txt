@@ -1,0 +1,21 @@
+choice which one of this is the global attribute and which is not ?
+
+title
+href
+src
+hidden
+charset
+class
+id
+type
+
+
+answer:
+title     ->         Global Attribute
+href      ->         Not a Global Attribute
+src       ->         Not a Global Attribute
+hidden    ->         Global Attribute
+charset   ->         Not a Global Attribute
+class     ->         Global Attribute
+id        ->         Global Attribute
+type      ->         Not a Global Attribute

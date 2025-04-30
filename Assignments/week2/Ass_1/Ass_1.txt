@@ -1,0 +1,14 @@
+1. What is the line you write to tell the browser that the HTML version used to create the page is HTML5?
+   <!DOCTYPE html>`
+
+2. What is the rendering mode that the browser will follow if you do not write the line to specify the       version?
+   The browser use "Quirks Mode" .
+
+3. Is it correct to use more than one `<h1>` tag on a page? Answer Yes or No.
+   No
+
+4. You have an element containing product data and the product title is written with `<h3>`. Is it logical to place an `<h2>` title within the same product?
+   No
+
+5. What do the elements `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` stand for?
+   They represent headings of different levels, with `<h1>` being the highest or most important heading and `<h6>` being the lowest or least important heading.

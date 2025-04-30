@@ -1,0 +1,7 @@
+<p class=element hidden>Welcome To The New World</p>
+<p class="element" hidden>Welcome To The New World</p>
+if there is any different?
+
+answer:
+No, Because Both <p class=element hidden> and <p class="element" hidden> will render the same way:
+Both examples use the hidden attribute, which is a Boolean attribute in HTML5. When applied, it hides the element from view.

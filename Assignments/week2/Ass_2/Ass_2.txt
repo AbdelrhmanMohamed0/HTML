@@ -1,0 +1,13 @@
+<p class="element">Welcome To The New World</p>
+<p class='element'>Welcome To The New World</p>
+<p class=element>Welcome To The New World</p>
+
+Is there a difference between these elements when they are displayed on the page or not?
+
+answer:
+
+<p class="element"> and <p class='element'> are both correct and will be interpreted similarly by browsers. The choice of double or single quotes around the attribute value does not affect the rendering of the page.
+
+<p class=element> is incorrect because the value of the class attribute should be enclosed in quotes (either single or double). Browsers might still render the page, but this usage is not compliant with HTML standards and could cause issues in some cases.
+
+The incorrect usage <p class=element> may still work in some browsers but is not standard-compliant.
